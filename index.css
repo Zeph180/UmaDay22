@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  pad: 0;
+  padding: 0;
 }
 
 header {
@@ -24,6 +24,7 @@ header {
   font-size: 50px;
   color: #272a31;
 }
+
 .fa-bars:hover {
   color: #ec5242;
 }
@@ -49,6 +50,12 @@ header {
   background-repeat: no-repeat;
 }
 
+.activity-desc p {
+  word-wrap: break-word;
+  width: 100%;
+  font-size: 1.225rem;
+}
+
 #catch-text {
   color: #ec5242;
   width: 500px;
@@ -59,7 +66,7 @@ header {
   margin: 10px 0;
 }
 
-#catch-text H4 {
+#catch-text h4 {
   font-size: 50px;
   margin: 10px 0;
   font-weight: bold;
@@ -96,9 +103,6 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-#main-sec {
   color: #d3d3d3;
 }
 
@@ -144,7 +148,8 @@ header {
   margin-right: 8px;
   align-items: center;
 }
-.activity-desc p {
+
+.activity-desc-p {
   word-wrap: break-word;
   width: 100%;
   font-size: 1.225rem;
@@ -169,6 +174,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* height: 100vh; */
 }
 
@@ -213,7 +219,7 @@ header {
   height: 100%;
 }
 
-.seperator{
+.seperator {
   width: 20px;
   margin-top: 10px;
   border-top: 2px solid red;
@@ -256,5 +262,4 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }

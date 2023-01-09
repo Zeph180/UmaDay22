@@ -19,6 +19,7 @@ header {
   font-size: 50px;
   color: #272a31;
 }
+
 .fa-bars:hover {
   color: #ec5242;
 }
@@ -46,7 +47,7 @@ header {
 
 #catch-text {
   color: #ec5242;
-  width: 90%px;
+  width: 90%;
   text-align: center;
 }
 
@@ -55,7 +56,7 @@ header {
   margin: 10px 0;
 }
 
-#catch-text H4 {
+#catch-text h4 {
   font-size: 50px;
   margin: 10px 0;
   font-weight: bold;
@@ -136,18 +137,12 @@ header {
 
 .past-event {
   width: 70%;
-  background-color: pink;
-  
-}
-
-.past-event {
-  width: 70%;
   height: 180px;
   position: relative;
   margin-bottom: 40px;
 }
 
-.past-event  img {
+.past-event img {
   width: 100%;
   height: 200px;
 }
@@ -216,5 +211,4 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
