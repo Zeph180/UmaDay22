@@ -183,6 +183,7 @@ header {
 
 .title {
   color: #ec5242;
+  margin: 0;
 }
 
 .brief {
@@ -206,10 +207,16 @@ header {
 }
 
 .speaker-img-cont img {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
   width: 180px;
   height: 100%;
+}
+
+.seperator{
+  width: 20px;
+  margin-top: 10px;
+  border-top: 2px solid red;
 }
 
 .more-btn {
