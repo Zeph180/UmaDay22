@@ -29,6 +29,49 @@ header {
   color: #272a31;
 }
 
+.mobile-menu {
+  background-color: rgba(236, 82, 66, .7);
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(4px);
+  top: 0;
+  display: none;
+}
+
+.mobile-nav {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.close-icon {
+  font-size: 60px;
+  margin-left: 8px;
+  color: #d3d3d3;
+}
+
+.close-icon:hover {
+  color: #ec5242;
+}
+
+.mobile-nav a:hover {
+  color: #ec5242;
+  background-color: white;
+}
+
+.mobile-nav li {
+  height: 60px;
+  display: block;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+
 .fa-bars:hover {
   color: #ec5242;
 }

@@ -30,7 +30,7 @@
         </ul>
       </nav>
       <nav id="nav-bar">
-        <i class="fas fa-solid fa-bars"></i>
+        <i id="ham" class="fas fa-solid fa-bars"></i>
         <h2 class="nav-logo"><a href="./index.html">UMA</a></h2>
         <ul class="desk-nav-list">
           <li><a href="#">About</a></li>
@@ -42,6 +42,16 @@
       </nav>
     </header>
     <main>
+      <div id="mob-menu" class="mobile-menu">
+        <iconify-icon class="close-icon" icon="mdi:close"></iconify-icon>
+        <ul class="mobile-nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./index.html">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+        </ul>
+      </div>
       <section class="catch-text-sec">
         <div id="catch-text">
           <p>"Hello! Ugandan music lovers"</p>
@@ -135,6 +145,6 @@
         <p>All rights reserved</p>
       </footer>
     </main>
-    <script src="./js/index.js"></script>
+    <script src="./js/toggleMenu.js"></script>
   </body>
 </html>
