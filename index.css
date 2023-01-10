@@ -251,6 +251,7 @@ header {
   background-color: #272a31;
   flex-direction: column;
   align-items: center;
+  color: #d3d3d3;
 }
 
 .partner-logo {
