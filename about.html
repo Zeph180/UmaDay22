@@ -1,114 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/4905cce8d8.js" crossorigin="anonymous"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./about.css">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <nav id="nav-bar" >
-      <i class="fas fa-solid fa-bars"></i>
-      <ul class="desk-nav-list">
-        <li>About</li>
-        <li>Program</li>
-        <li>Join</li>
-        <li>Sponsor</li>
-        <li>Join</li>
-        <li>UMA Campaign</li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="catch-text-sec">
-      <div id="catch-text">
-        <p>"Hello! Ugandan music lovers"</p>
-        <h4>MUSIC ASSOCIATION OF UGANDA DAY 2022</h4>
-      </div>
-      <div class="intro-text">
-        <p>
-          The day brings together the community of experts, academics, and activists who comprise of the performing arts  network in a different country.
-          this year, we hope to expand our invitation lst including organizations and individuals from around the world.
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-        </p>
-      </div>
-      <div id="event-time">
-        <p class="email-head">Please contact us by email for any further questions</p>
-        <p class="email">ugandamusicassociation@gmail.com</p>
-      </div>
-    </section>
-    
-    <section class="desc-sec">
-     <div class="desc-cont">
-      <h5>Music Association of Uganda</h5>
-      <p class="desc">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-     </div>
-    </section>
-
-    <section class="logo-sec">
-      <div class="logo-cont"> 
-        <h3>
-          MUSIC ASSOCIATION OF UGANDA
-        </h3>
-      </div>
-    </section>
-    <hr>
-    <section class="desc-sec">
-      <div class="desc-cont">
-       <h5>See past UMA Events</h5>
-       <p class="desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-      </div>
-     </section>
-     <section class="past-events-sec">
-        <div class="past-event">
-          <div class="past-event-desc">
-            <p class="event-year">
-              2020
-            </p>
-            <p class="event-desc">
-              Lorem ipsum dolor sit ammet.
-            </p>
-          </div>
-            <img src="./assets/concert2.jpg" alt="">
-        </div>
-
-        <div class="past-event">
-          <div class="past-event-desc">
-            <p class="event-year">
-              2020
-            </p>
-            <p class="event-desc">
-              Lorem ipsum dolor sit ammet.
-            </p>
-          </div>
-            <img src="./assets/concert1.jpg" alt="">
-        </div>
-     </section>
-     <section class="partners">
-      <h4 class="sec-heading">Partners</h4>
-      <div class="bottom-line"></div>
-      <div class="partner-logo">
-        <ul>
-          <li><img src="./assets/partners/airbnb.svg" alt="air bnb logo"></li>
-          <li><img src="./assets/partners/coinbase-ar21.svg" alt=""></li>
-          <li><img src="./assets/partners/dropbox-ar21.svg" alt=""></li> 
-        </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4905cce8d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./about.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="top-header">
+        <ul class="desk-nav-list header-ul">
+          <li><a href="#"><iconify-icon icon="ic:baseline-facebook"></iconify-icon></a></li>
+          <li><a href="twietter"><iconify-icon icon="mdi:twitter"></iconify-icon>/a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
         </ul>
-    </div>
-    </section>
-    <footer>
-      <h5>
-        UGANDA MUSIC <br> ASSOCIATION
-      </h5>
-      <p>
-        All rights reserved
-      </p>
-  </footer>
-  </main>
-</body>
+      </nav>
+      <nav id="nav-bar">
+        <i id="ham" class="fas fa-solid fa-bars"></i>
+        <h2 class="nav-logo"><a href="./index.html">UMA</a></h2>
+        <ul class="desk-nav-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><button>UMA Campaign</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="mob-menu" class="mobile-menu">
+        <iconify-icon class="close-icon" icon="mdi:close"></iconify-icon>
+        <ul class="mobile-nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./index.html">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+        </ul>
+      </div>
+      <section class="catch-text-sec">
+        <div id="catch-text">
+          <p>"Hello! Ugandan music lovers"</p>
+          <h4>MUSIC ASSOCIATION OF UGANDA DAY 2022</h4>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="intro-text">
+          <p>
+            The day brings together the community of experts, academics, and
+            activists who comprise of the performing arts network in a different
+            country. this year, we hope to expand our invitation lst including
+            organizations and individuals from around the world. There are many
+            variations of passages of Lorem Ipsum available, but the majority
+            have suffered alteration in some form, by injected humour, or
+            randomised words which don't look even slightly believable.
+          </p>
+        </div>
+        <div id="event-time">
+          <p class="email-head">
+            Please contact us by email for any further questions
+          </p>
+          <p class="email">ugandamusicassociation@gmail.com</p>
+        </div>
+      </section>
+
+      <section class="desc-sec">
+        <div class="desc-cont">
+          <h5>Music Association of Uganda</h5>
+          <div class="bottom-line"></div>
+          <p class="desc">
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+            below for those interested. Sections 1.10.32 and 1.10.33 from "de
+            Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+            exact original form, accompanied by English versions from the 1914
+            translation by H. Rackham.
+          </p>
+        </div>
+      </section>
+
+      <section class="logo-sec">
+        <div class="logo-cont">
+          <h3>MUSIC ASSOCIATION OF UGANDA</h3>
+        </div>
+      </section>
+      <hr />
+      <section class="desc-sec">
+        <div class="desc-cont">
+          <h5>See past UMA Events</h5>
+          <div class="bottom-line"></div>
+          <p class="desc">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered.
+          </p>
+        </div>
+      </section>
+      <section class="past-events-sec-cont">
+        <div class="past-events-sec">
+          <div class="past-event">
+            <div class="past-event-desc">
+              <p class="event-year">2020</p>
+              <p class="event-desc">Lorem ipsum dolor sit ammet.</p>
+            </div>
+            <img src="./assets/concert2.jpg" alt="" />
+          </div>
+
+          <div class="past-event">
+            <div class="past-event-desc">
+              <p class="event-year">2020</p>
+              <p class="event-desc">Lorem ipsum dolor sit ammet.</p>
+            </div>
+            <img src="./assets/concert1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <h4 class="sec-heading">Partners</h4>
+        <div class="bottom-line"></div>
+        <div class="partner-logo">
+          <img src="./assets/partners/dropbox-ar21.svg" alt="" />
+          <img src="./assets/partners/airbnb.svg" alt="" />
+          <img src="./assets/partners/coinbase-ar21.svg" alt="" />
+          <img src="./assets/partners/mozilla-ar21.svg" alt="" />
+          <img src="./assets/partners/google-ar21.svg" alt="" />
+        </div>
+      </section>
+      <footer>
+        <h5>
+          UGANDA MUSIC <br />
+          ASSOCIATION
+        </h5>
+        <p>All rights reserved</p>
+      </footer>
+    </main>
+    <script src="./js/toggleMenu.js"></script>
+  </body>
 </html>
