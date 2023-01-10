@@ -352,6 +352,10 @@ footer {
     cursor: pointer;
   }
 
+  .header-ul li a {
+    color: #d3d3d3;
+  }
+
   .desk-nav-list li a {
     color: #d3d3d3;
     text-decoration: none;
@@ -385,10 +389,6 @@ footer {
 
   .header-ul li {
     font-weight: normal;
-  }
-
-  .header-ul li a {
-    color: #d3d3d3;
   }
 
   .prog-activity p {
