@@ -256,7 +256,7 @@ header {
 .partner-logo {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 80%;
+  width: 60%;
   padding-bottom: 5%;
 }
 
@@ -462,10 +462,7 @@ footer {
   }
 
   .partner-logo {
-    display: grid;
     grid-template-columns: auto auto auto auto auto;
-    width: 80%;
-    padding-bottom: 5%;
   }
 
 }
