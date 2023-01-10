@@ -30,7 +30,7 @@ header {
 }
 
 .mobile-menu {
-  background-color: rgba(236, 82, 66, .7);
+  background-color: rgba(236, 82, 66, 0.7);
   height: 100vh;
   position: fixed;
   width: 100%;
@@ -54,11 +54,6 @@ header {
   color: #ec5242;
 }
 
-.mobile-nav a:hover {
-  color: #ec5242;
-  background-color: white;
-}
-
 .mobile-nav li {
   height: 60px;
   display: block;
@@ -69,6 +64,11 @@ header {
 .mobile-nav a {
   text-decoration: none;
   color: #d3d3d3;
+}
+
+.mobile-nav a:hover {
+  color: #ec5242;
+  background-color: white;
 }
 
 .fa-bars:hover {
@@ -357,6 +357,10 @@ footer {
     text-decoration: none;
   }
 
+  .desk-nav-list a:hover {
+    color: #ec5242;
+  }
+
   .desk-nav-list li button {
     border: 5px solid #ec5242;
     width: fit-content;
@@ -385,6 +389,10 @@ footer {
 
   .header-ul li a {
     color: #d3d3d3;
+  }
+
+  .prog-activity p {
+    margin-bottom: 10px;
   }
 
   .catch-text-sec {
@@ -451,10 +459,6 @@ footer {
     align-items: center;
   }
 
-  .prog-activity p {
-    margin-bottom: 10px;
-  }
-
   .prog-icon {
     margin-top: 20px;
   }
@@ -464,10 +468,6 @@ footer {
     margin-right: 8px;
     align-items: center;
     text-align: center;
-  }
-
-  .activity-desc {
-    width: 80%;
   }
 
   .see-whole {
@@ -507,5 +507,4 @@ footer {
   .partner-logo {
     grid-template-columns: auto auto auto auto auto;
   }
-
 }
