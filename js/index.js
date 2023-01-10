@@ -1,8 +1,8 @@
-const hamburger = document.getElementById('ham');
-const mobMenu = document.getElementById('mob-menu');
-const nav = document.querySelector('#nav-bar');
-const closeBtn = document.querySelector('.close-icon');
-const speakersSection = document.querySelector('.speakers-sec')
+// const hamburger = document.getElementById('ham');
+// const mobMenu = document.getElementById('mob-menu');
+// const nav = document.querySelector('#nav-bar');
+// const closeBtn = document.querySelector('.close-icon');
+const speakersSection = document.querySelector('.speakers-sec');
 const speakers = [
   {
     name: 'Bobi Wine',
@@ -42,18 +42,18 @@ const speakers = [
   },
 ];
 
-function openMenu() {
-  mobMenu.style.display = 'block';
-  nav.style.visibility = 'hidden';
-}
+// function openMenu() {
+//   mobMenu.style.display = 'block';
+//   nav.style.visibility = 'hidden';
+// }
 
-function closeMenu() {
-  mobMenu.style.display = 'none';
-  nav.style.visibility = 'visible';
-}
+// function closeMenu() {
+//   mobMenu.style.display = 'none';
+//   nav.style.visibility = 'visible';
+// }
 
-hamburger.addEventListener('click', openMenu);
-closeBtn.addEventListener('click', closeMenu);
+// hamburger.addEventListener('click', openMenu);
+// closeBtn.addEventListener('click', closeMenu);
 
 // GENERATE SPEAKERS
 
