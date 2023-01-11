@@ -101,12 +101,12 @@ header {
 }
 
 #catch-text p {
-  font-size: 30px;
+  font-size: 16px;
   margin: 10px 0;
 }
 
 #catch-text h4 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 10px 0;
   font-weight: bold;
 }
@@ -114,7 +114,7 @@ header {
 .intro-text {
   background-color: #d3d3d3;
   width: 80%;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 26px;
   padding-left: 18px;
   border: 5px solid white;
@@ -185,7 +185,7 @@ header {
   width: 25%;
   color: #ec5242;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 16px;
   display: flex;
   align-items: center;
 }
@@ -199,7 +199,7 @@ header {
 .activity-desc-p {
   word-wrap: break-word;
   width: 100%;
-  font-size: 1.225rem;
+  font-size: 12px;
 }
 
 .fa-keynote {
