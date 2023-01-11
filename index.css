@@ -92,16 +92,16 @@ header {
 .activity-desc p {
   word-wrap: break-word;
   width: 100%;
-  font-size: 1.225rem;
+  font-size: 15px;
 }
 
 #catch-text {
   color: #ec5242;
-  width: 500px;
+  width: 84%;
 }
 
 #catch-text p {
-  font-size: 16px;
+  font-size: 30px;
   margin: 10px 0;
 }
 
