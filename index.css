@@ -263,7 +263,7 @@ header {
   background-image: url(./assets//squares.jpg);
   background-size: 100px;
   background-repeat: no-repeat;
-  width: 40%;
+  width: 180px;
   height: 88%;
   margin-right: 20px;
 }
@@ -271,8 +271,7 @@ header {
 .speaker-img-cont img {
   margin-top: 15px;
   margin-left: 15px;
-  width: 180px;
-  height: 100%;
+  width: 100%;
 }
 
 .seperator {
