@@ -115,7 +115,7 @@ header {
   background-color: #d3d3d3;
   text-align: center;
   width: 80%;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 26px;
   padding-left: 18px;
   padding-right: 18px;
@@ -126,7 +126,7 @@ header {
   color: #272a31;
   width: 83%;
   margin-top: 10px;
-  font-size: 1.125rem;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -153,7 +153,7 @@ header {
 .desc {
   line-height: 26px;
   padding: 0 15px;
-  font-size: 1.125rem;
+  font-size: 13px;
 }
 
 .logo-sec {
