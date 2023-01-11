@@ -42,19 +42,6 @@ const speakers = [
   },
 ];
 
-// function openMenu() {
-//   mobMenu.style.display = 'block';
-//   nav.style.visibility = 'hidden';
-// }
-
-// function closeMenu() {
-//   mobMenu.style.display = 'none';
-//   nav.style.visibility = 'visible';
-// }
-
-// hamburger.addEventListener('click', openMenu);
-// closeBtn.addEventListener('click', closeMenu);
-
 // GENERATE SPEAKERS
 
 speakers.forEach((speaker) => {
