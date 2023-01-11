@@ -261,16 +261,16 @@ header {
 
 .speaker-img-cont {
   background-image: url(./assets//squares.jpg);
-  background-size: 100px;
+  background-size: 60px;
   background-repeat: no-repeat;
-  width: 180px;
+  width: 200px;
   height: 88%;
   margin-right: 20px;
 }
 
 .speaker-img-cont img {
-  margin-top: 15px;
-  margin-left: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
   width: 100%;
 }
 
