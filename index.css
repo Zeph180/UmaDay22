@@ -83,7 +83,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 65vh;
   background-image: url(./assets/motion.jpg);
   background-size: cover;
   background-repeat: no-repeat;
